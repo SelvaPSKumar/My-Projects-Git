@@ -1,0 +1,72 @@
+
+.screening-info-card{
+    width: 85%;
+    margin: 0 auto;
+}
+.screening-info-card h6{
+ font-size: 12px !important;
+ font-weight: 400;
+ 
+ color: #333333;
+}
+.screening-info-card p{
+ font-size: 14px;
+ font-weight: 400;
+ 
+ color: #333333;
+}
+.card{
+    background-color: #FFFAFA !important;
+    border-color: #FFCCC7 !important;
+}
+.info-notes-screening h1{
+    font-size: 20px !important;
+    font-weight: 500;
+    
+}
+.screening-btn-selection button{
+    text-align: center;
+    width: 100%;
+    border-color: #D69900;
+    color: #D69900;
+    height: 40px;
+    text-decoration: none !important;
+}
+.screening-btn-selection button:hover{
+    background-color: #D69900;
+    color: white;
+    text-decoration: none !important;
+
+}
+.screening-btn-selection a{
+    text-decoration: none !important;
+    color: #D69900;
+    width: 100% !important;
+
+}
+.screening-btn-selection button a:hover{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+.screening-btn-selection{
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+    .info-notes-screening h1 {
+        font-size: 12px !important;
+        font-weight: 500;
+        
+    }
+    .screening-btn-selection button{
+        font-size: 12px;
+    }
+    .screening-btn-selection{
+        width: 100%;
+    }
+    
+}

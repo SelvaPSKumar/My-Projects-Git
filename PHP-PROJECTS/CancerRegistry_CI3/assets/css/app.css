@@ -1,0 +1,713 @@
+Body{
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 578px) { 
+    .activeNav{
+        border-bottom: 4px solid #FFC83D;
+        color: #FFC83D !important;
+    } 
+    .login-form input{
+        margin-top: 15px !important;
+        border: none !important;
+    }   
+}
+
+@media only screen and (max-width: 578px) { 
+    .navbar-collapse.collapse.show {
+        border-bottom: 1px solid #7F7F7F;
+    }
+    .dataTables_length {
+        margin-right: 8px;
+        margin-left: 8px;
+        margin-bottom: 20px;  
+    }
+    .dataTables_filter {
+        margin-right: 8px;
+        margin-left: 8px;
+        margin-bottom: 20px;    
+    }
+    .login-form input{
+        margin-top: 15px !important; 
+    }
+}
+
+.navbar-logo{
+    width: 126px;
+    height: 80px;
+}
+.cancerApp-Home{
+    background-image:   linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../img/Home-bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 875px;
+    width: 100%;
+}
+.vaccine-card-outer{
+    background: linear-gradient(135deg, rgba(255, 200, 61, 0.08) 0%, #FFC83D 100%);
+    height: 500px;
+    border: none;
+}
+.vaccine-card-inner{
+    margin: 20px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../assets/card-image-doc.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vaccine-card-inner-doc{
+    margin: 20px;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../assets/card-image-child.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-info{
+    text-align: center;
+}
+.card-info h5{
+    color:  #FFFFFF;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.card-info p{
+    color:  #FFFFFF;
+    font-size: 14px;
+    
+    margin-top: 30px;
+}
+.card-info ul li{
+    color:  #FFFFFF;
+    font-size: 14px;
+    
+    text-align: left;
+}
+.card-info h2{
+    color:  #FFFFFF;
+    font-size: 14px;
+    
+    margin-top: 65px;
+}
+.navbar-toggler {
+    font-size: 1rem !important;
+}
+.footer{
+    background-color: #333333;
+    height: 70px;
+}
+.footer-content{
+    padding-top: 20px;
+    color: white;
+}
+.copy-right-content{
+    font-size: 14px !important;
+    
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400 !important;
+}
+.copy-right-subContent{
+    font-size: 14px !important;
+    
+    color: #FFFFFF;
+    font-weight: 400 !important;
+    text-align: end;
+    padding-right: 40px;
+}
+.register-btn{
+    background-color: white !important;
+    color: #333333 !important;
+    border-color: #333333 !important;
+    font-size: 14px;
+    
+    font-weight: 500;
+    width: 100%;
+}
+.signup-modal{
+    padding: 0px 40px;
+    margin-top: 30px;
+}
+.register-btn-dropdown:hover{
+    background-color: #FFC83D !important;
+    border-color: white !important;
+    width: 100%;
+}
+.dropdown-menu a{
+    text-decoration: none !important;
+}
+.register-btn-dropdown{
+    width: 100%;
+}
+.home-content{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 14%;
+}
+
+.home-content h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    
+}
+.home-content p{
+    color: #CCCCCC;
+    font-size: 16px;
+    
+    font-weight: 400 !important;
+    line-height: 24px;
+}
+.login-form{
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 8px;
+    height: 64px;
+    margin-top: 25px;
+}
+
+.forget-login-details p{
+ color: white;
+ font-weight: 500;
+ text-align: center;
+ font-size: 16px;
+ 
+ margin: 10px auto;
+}
+.forget-login-details span {
+    position: relative;
+    color: white;
+    right: 28%;
+    margin-top: 12px;
+}
+
+.login-btn{
+    background-color: #FFC83D;
+    border-radius: 0px 8px 8px 0px;
+    height: 64px !important;
+    border-color: #FFC83D;
+    color: black;
+    
+    font-weight: 500;
+    text-align: center !important;
+    width: 100%;
+}
+.login-btn:hover{
+    background-color: #FFC83D !important;
+    border-color: #FFC83D !important;
+
+}
+.login-btn-outer{
+    background-color: #FFC83D;
+    height: 64px !important;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.center-bar{
+    color: black !important;
+    font-weight: 900 !important;
+    margin-top: 20px;
+}
+.sub-contents{
+    background-color: #FFFFFF;
+}
+.vaccines-background{
+    background-color: #FFFCF5;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: white
+}
+.volunteers-background{
+    background-color: #FFFCF5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: white
+}
+.volunteers-background h5{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400 !important;
+}
+.volunteers-background h3{
+    font-size: 96px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.volunteers-background h4{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
+}
+.image-sizing{
+    width: 380px;
+    height: 300px;
+}
+.vaccine-counts{
+    text-align: center;
+}
+.vaccine-counts h6{
+    color: #D69900;
+    font-size: 80px;
+    margin-top: 50px;
+}
+.vaccine-counts p{
+    color: #333333;
+    font-size: 28px;
+}
+.volunteers-signup{
+    margin: 30px auto;
+}
+.volunteers-signup h1{
+   font-size: 32px;
+   font-family: 'Poppins', sans-serif;
+   color: #333333;
+}
+.volunteers-signup p{
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+.doc-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 10px 10px #FFC83D;
+}
+.we-do-content h1{
+    margin-top: 90px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.we-do-content p{
+    
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+
+ /* global CSS */
+.topic-headers{
+    font-size: 40px;
+    font-weight: 600 !important;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+}
+.common-btn{
+    background-color: #FFC83D;
+    border: 1px solid #D69900;
+    width: 200px;
+    border-radius: 4px;
+    height: 48px;
+    color: #333333;
+    
+    font-weight: 500;
+}
+.learn-more{
+    background-color: #333333;
+    color: #FFC83D;
+    border-radius: 4px;
+    font-size: 16px;
+    
+    font-weight: 500;
+    width: 140px;
+}
+.learn-more-btn{
+    border-color: #333333;
+    color: #333333;
+     border-radius: 4px;
+    font-size: 16px;
+    
+    font-weight: 500;
+    width: 140px;
+}
+.activity-card p{
+    color: #333333;
+    font-size: 18px;
+    
+    cursor: pointer;
+
+}
+.activity-card:hover{
+  background-color: #FFC83D;
+  cursor: pointer;
+}
+.activity-card{
+    cursor: pointer;
+}
+
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
+.carousel-indicators .active {
+    opacity: 1;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+    position: relative !important;
+    top: 50px !important;
+    background-color: #BFBFBF !important;
+}
+.container-xxl{
+    max-width: 1920px;
+}
+.navbar-header{
+    padding: 0px 100px !important;
+}
+.login-info-container .card{
+height: 150px;
+}
+.doctor-image-login{
+    width: 80px;
+}
+.sign-up-headers h5{
+    font-size: 16px;
+    color: #FFC83D;
+    font-weight: 500;
+}
+.sign-up-headers p {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+   
+    .signup-modal{
+        padding: 0px 10px;
+        margin-top: 30px;
+    }
+    .navbar-logo {
+        width: 80px;
+        height: 50px;
+    }
+    .navbar-header{
+        padding: 10px !important;
+    }
+    .volunteers-background h5 {
+        font-size: 14px;
+    }
+    .volunteers-background h3 {
+        font-size: 14px;
+        margin-top: 0px;
+    }    
+    .volunteers-background h4 {
+        font-size: 12px;
+    }
+    .learn-more-btn {
+        font-size: 12px;
+        width: 100px;
+    }
+    .doc-image {
+        width: 100%;
+        height: auto;
+        box-shadow: 5px 5px #ffc83d;
+
+    }
+    .we-do-content h1 {
+        margin-top: 0px;
+        font-size: 18px;
+    }    
+    .volunteers-signup h1 {
+        font-size: 18px;
+    }
+    .we-do-content p {
+        font-size: 8px;
+    }
+    .learn-more {
+        font-size: 12px;
+        width: 100%;
+    }
+    .volunteers-signup p {
+        font-size: 12px;
+    }
+    .vaccine-card-outer {
+        background: linear-gradient(135deg, rgba(255, 200, 61, 0.08) 0%, #FFC83D 100%);
+        height: 350px;
+    }
+    .card-info p {
+        font-size: 10px;
+    }
+    .card-info h5 {
+        font-size: 14px;
+    }
+    .card-info h2 {
+        font-size: 10px;
+        margin-top: 30px;
+    }
+    .card-info ul li {
+        color: #FFFFFF;
+        font-size: 8px;
+    }
+  
+    .image-sizing{
+        width: 100%;
+        height: 100%;
+    }
+    .vaccines-background{
+        height: 100px;
+    }
+
+    .vaccine-counts h6 {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .vaccine-counts p{
+        font-size: 10px;
+    }
+    .navbar-collapse { 
+        border-top: 1px solid #7F7F7F;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 10px;
+        padding: 5px 0px;
+    }
+    
+   
+    #mobile-view{
+        display: none !important;
+        }
+    .cancerApp-Home{
+        width: 100%;
+        height: 700px;
+        background-size:cover;
+
+    }
+    .copy-right-subContent {
+        font-size: 8px !important;
+        
+        color: #FFFFFF;
+        font-weight: 400 !important;
+        text-align: center;
+        padding-right: 0px !important;
+        margin-right: 0px !important;  
+      }
+    .copy-right-content {
+        font-size: 8px !important;
+        
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 400 !important;
+        padding-right: 0px !important;
+        margin-right: 0px !important;
+    }
+    .login-form{
+        width: 100%;
+        background-color: white;
+        margin: 0 auto;
+        border-radius: 8px;
+        height: 150px;
+        margin-top: 15%;
+    }
+    .home-content {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 25% !important;
+    }
+    .home-content h1 {
+        font-size: 22px;
+        color: #FFFFFF;
+        margin-top: 0%;
+    }
+    .home-content p {
+        color: #CCCCCC;
+        
+        font-weight: 400 !important;
+        line-height: 24px;
+    }
+    .forget-login-details span {
+        position: relative;
+        color: white;
+        right: 15%;
+        margin-top: 12px;
+    }
+    .register-btn {
+        background-color: white !important;
+        color: #333333;
+        border-color: #333333;
+        font-size: 18px;
+        
+        font-weight: 500;
+        margin-top: 10% !important;
+        width: 100%;
+    }
+
+
+
+
+
+  /* Global CSS */
+    .topic-headers{
+        font-size: 20px;
+        font-weight: 600 !important;
+        color: #333333;
+        font-family: 'Poppins', sans-serif;
+    }
+    .form-select {
+        font-size: 12px !important;
+    }
+        
+    .login-selection-container {
+        width: 100%;
+    }
+    .login-selection-container .card {
+        width: 85% !important;
+    }
+
+
+    
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+    .login-btn-outer {
+        border-radius: 0px 0px 8px 8px;
+    }
+
+    .col-md-4.email-field,
+    .col-md-4.password-field {
+        background-color: white;
+    }
+
+    .col-md-4.password-field {
+        padding-bottom: 10px;
+    }
+
+    .col-md-4.email-field {
+        border-radius: 8px 8px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 320px) {
+    .login-btn-outer {
+        background-color: #FFC83D;
+        height: 48px !important;
+        border-radius: 0px 0px 8px 8px;
+        width: 100%;
+    }
+    .login-btn{
+        background-color: #FFC83D;
+        border-radius: 0px 0px 8px 8px;
+        height: 48px !important;
+        border-color: #FFC83D;
+        color: black;
+        
+        font-weight: 500;
+        text-align: center !important;
+        
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 4000px) {
+    .login-btn-outer {
+        background-color: #FFC83D;
+        height: 48px !important;
+        border-radius: 0px 0px 8px 8px;
+        margin: 10px 5px;
+        width: 98%;
+    }
+    .login-btn{
+        background-color: #FFC83D;
+        border-radius: 0px 0px 8px 8px;
+        height: 48px !important;
+        border-color: #FFC83D;
+        color: black;
+        
+        font-weight: 500;
+        text-align: center !important;
+        
+    }
+}
+
+/* Resonsive for Tablets */
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    .volunteers-signup h1 {
+        font-size: 18px;
+    }
+    .volunteers-signup p {
+        font-size: 12px;
+    }
+   
+    .vaccines-background {
+        height: 250px;
+    }
+    .vaccine-counts h6 {
+        font-size: 48px;
+        }
+    .vaccine-card-outer {
+            height: 550px;
+        }
+    .card-info h5 {
+            color: #FFFFFF;
+            font-size: 18px;
+    }
+    .card-info p {
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+    .card-info h2 {
+        color: #FFFFFF;
+        font-size: 12px;
+        
+        margin-top: 52px;
+    }
+    .card-info ul li {
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+    .login-form {
+        width: 100%;
+    }
+    .cancerApp-Home {
+        /*height: 600px;*/
+    }
+    .copy-right-content {
+        font-size: 10px !important;
+    }
+    .copy-right-subContent {
+        font-size: 10px !important;
+        
+        color: #FFFFFF;
+        font-weight: 400 !important;
+        margin-left: 10% !important;
+    }
+    .home-content h1 {
+        font-size: 30px;
+        color: #FFFFFF;
+        
+    }
+    .home-content {
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 10%;
+    }
+}

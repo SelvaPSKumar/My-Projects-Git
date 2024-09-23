@@ -1,0 +1,55 @@
+.body{
+    margin: 0px;
+}
+
+.move {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.mine {
+    height: 230px;
+}
+
+.nob {
+    background-color:#57bda7;
+    height: 145px;
+    display: flex;
+}
+
+.cope {
+    background-color: #57bda7;
+}
+
+.cop {
+    background-color: #3da18c;
+}
+
+.sos {
+    font-size: 12px;
+}
+
+.spd {
+    font-size: 35px;
+}
+
+.container {
+    width: 80%;
+}
+
+.row {
+    margin: 0;
+}

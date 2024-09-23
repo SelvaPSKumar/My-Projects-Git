@@ -1,0 +1,179 @@
+.backward-icon{
+    position: relative;
+    margin-top: 2px;
+}
+.screeningHeader{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+.screening-info-container{
+    width: 60% !important;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.login-selection-container p{
+    font-size: 12px ;
+    font-weight: 400;
+    color: #333333;
+}
+.login-selection-container{
+    width: 60% !important;
+    margin: 0 auto !important;
+    padding-top: 30px;
+}
+.login-selection-container .card{
+    height: 180px !important;
+    width: 150px !important;
+    margin: 0 auto !important;
+    border: 5px solid #D69900;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.login-selection-container .card:hover{
+    margin: 0 auto !important;
+    border: 5px solid #D69900;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #FFC83D;
+}
+.login-selection-container h6{
+    font-weight: 400;
+    color: #333333;
+ }
+.screening-btn{
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+.screening-btn button{
+    text-align: center;
+    width: 100%;
+    border-color: #D69900;
+    color: #D69900;
+    height: 40px;
+}
+.screening-btn button:hover{
+    background-color: #D69900;
+    color: white;
+}
+.screening-btn button a{
+    text-decoration: none;
+    color: #D69900;
+    width: 100% !important;
+}
+.screening-btn button a:hover{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+
+}
+.form-check label {
+    width: 100% !important;
+}
+.form-check {
+    padding-left: 0em !important;
+   
+}
+.form-check-input[type=radio]{
+    display: none !important;
+  }     
+  .card-footer{
+    height: 40px;
+  }
+.form-check label{
+    display: inline-block;
+    background-color: white;
+    color: #BFBFBF;
+    padding: 4px 11px;
+    cursor: pointer;
+    font-weight: 500 !important;
+
+}
+.screening-info-container p{
+    font-size: 12px ;
+    font-weight: 400;
+    color: #333333;
+}
+.screening-info-container h6{
+   font-size: 14px;
+   font-weight: 400;
+   color: #333333;
+}
+.form-check input[type="radio"]:checked+label {
+    background-color: #FFC83D;
+    width: 100% !important;
+    color: black;
+    height: 40px;
+
+  }
+  .form-check input[type="radio"]{
+    background-color: #FFC83D;
+    color: black;
+    height: 40px;
+  }
+  .back-link{
+    text-decoration: none !important;
+    color: black;
+  }
+  .card-body{
+    height: 105px;
+  }
+  .card-body1{
+    height: 140px;
+  }
+
+  @media (max-width: 1199px){
+    .login-selection-container {
+        width: 70% !important;
+    }
+  }
+
+  @media (max-width: 991px){
+    .login-selection-container{
+        width: 100% !important;
+    }
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 320px) {
+    .screening-info-container {
+        margin: 0px auto;
+        padding-top: 30px;
+        width: 100% !important;
+    }
+    .login-selection-container {
+        margin: 0 auto;
+        padding-top: 0px;
+        width: 90% !important;
+        overflow-x: hidden;
+    }
+    .login-selection-container .card{
+        height: 150px;
+        width: 90% !important;
+        margin: 0 auto !important;
+        margin: 0px !important;
+    }
+    .screeningHeader {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .screening-btn button{
+        font-size: 12px;
+    }
+    .card-body {
+        height: 50px;
+    }
+  }
+
+  @media (max-width: 767px){
+    .cancerApp-Home{ height: auto !important; padding-bottom: 22%; }
+  }
+
+.inline-block {
+    display: inline-block;
+}
