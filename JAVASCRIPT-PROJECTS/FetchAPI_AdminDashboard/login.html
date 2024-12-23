@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <!-- Flex Design   -->
+
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="https://svgshare.com/i/_go.svg" alt="" />
+            </div>
+            <div class="image"></div>
+            <div class="text">
+                Start for login & Fetch <br />
+                the Data's !
+            </div>
+        </div>
+        <form id="form">
+            <div class="social">
+                <div class="title">Get Started</div>
+            </div>
+
+            <!-- Email Input here -->
+
+            <div>
+                <label for="email">Email</label>
+                <i class="far fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" />
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <!-- Password Input here -->
+
+            <div>
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Password here" />
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <!-- Submit Button here -->
+
+            <div id="demoShow">
+                <button type="submit" class="submit" value="Fetch Auth" onclick="fetchAuth()"
+                    id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

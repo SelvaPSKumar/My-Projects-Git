@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Bikes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="path"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        <div class="thumbnail">
+            <li><img src="imges/bike1.png" alt="bike1" onclick="big('imges/bike1.png'); path('#e5e5e5'); bg('linear-gradient(70deg,black,red)');"></li>
+            <li><img src="imges/bike2.png" alt="bike2" onclick="big('imges/bike2.png'); path('white'); bg('linear-gradient(70deg,purple,red)');"></li>
+            <li><img src="imges/bike3.png" alt="bike3" onclick="big('imges/bike3.png'); path('#e5e5e5'); bg('linear-gradient(70deg,orange,red)');"></li>
+        </div>
+        <div class="big-img">
+            <img src="./imges/bike2.png" class="big">
+        </div>
+        <div class="content">
+            <p>&#x1F525; Let's ride &#x1F525;</p><br>
+            <h1>Don't Fear Dying <br>&nbsp;&nbsp; Fear Not Living</h1><br><br>
+            <h5>&#x1F60E; For Bike Lovers and Bike Riders&#x1F49D;</h5>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

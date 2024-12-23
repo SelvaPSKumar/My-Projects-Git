@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>login box</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Login</h2>
+            
+            <div class="form-control">
+                <input type="text" id="email" placeholder="Enter email">
+                <small>Error Message</small>
+            </div>
+            
+            <div class="form-control">
+                <input type="password" id="password" placeholder="Password">
+                <small>Error Message</small>
+            </div>
+
+            <div>
+                <p class="pb-lg-2 "><a href="#!">Forgot password?</a></p>
+            </div>
+           
+            <button id="submit">Login</button>
+
+            <div class="text-dark">
+                <p class="mb-0">Not a member? <a href="#!" class=" fw-bold">Sign Up</a></p>
+            </div>
+
+        </form>
+    </div>
+
+    <script>
+       const form = document.getElementById('form');
+const email = document.getElementById('email');
+const password = document.getElementById('password');
+
+function showError(input, message) {
+    const formControl = input.parentElement;
+    formControl.className = 'form-control error';
+    const small = formControl.querySelector('small');
+    small.innerText = message;
+}
+
+function showSucces(input) {
+    const formControl = input.parentElement;
+    formControl.className = 'form-control success';
+}
+
+function checkEmail(input) {
+    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if(re.test(input.value.trim())) {
+        showSucces(input)
+    }else {
+        showError(input,'Email is not invalid');
+    }
+}
+
+function checkRequired(inputArr) {
+    inputArr.forEach(function(input){
+        if(input.value.trim() === ''){
+            showError(input,`${getFieldName(input)} is required`)
+        }else {
+            showSucces(input);
+        }
+    });
+}
+
+function checkLength(input, min ,max) {
+    if(input.value.length < min) {
+        showError(input, `${getFieldName(input)} must be at least ${min} characters`);
+    }else if(input.value.length > max) {
+        showError(input, `${getFieldName(input)} must be les than ${max} characters`);
+    }else {
+        showSucces(input);
+    }
+}
+
+function getFieldName(input) {
+    return input.id.charAt(0).toUpperCase() + input.id.slice(1);
+}
+
+function checkPassword(input) {
+    if(input.value !=="") {
+        showError(input, 'Enter a Password');
+    }
+}
+
+form.addEventListener('submit',function(e) {
+    e.preventDefault();
+
+    checkRequired([email, password,]);
+    checkLength(password,6,25);
+    checkEmail(email);
+});
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+.screening-btn-selection{
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+.screening-btn-selection button{
+    text-align: center;
+    width: 100%;
+    border-color: #D69900;
+    color: #D69900;
+    height: 40px;
+}
+.screening-btn-selection button:hover{
+    background-color: #D69900;
+    color: white;
+}
+.screening-btn-selection button a{
+    text-decoration: none;
+    color: #D69900;
+    width: 100% !important;
+}
+.screening-btn-selection button a:hover{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+.date-input{
+    background-color: #FFFFFF !important;
+    border: none !important;
+    width: 100% !important;
+    padding: 10px;
+    font-size: 16px !important;
+}
+.input-outer{
+    border: 1px solid #E0E0E0;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+    .screening-btn-selection button{
+         font-size: 12px;
+    }
+}

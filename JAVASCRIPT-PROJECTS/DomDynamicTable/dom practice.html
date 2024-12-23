@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Dom Practice
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="employees-table">
+        <table class="list" id="employeeList" cellspacing=3 cellpadding=6 id="data_table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div><br>
+    <br>
+    <hr>
+    
+    <h2>Dom Form</h2>
+
+    <button id="myBtn" class="button button3">Add on</button>
+
+    <div id="myDom" class="dom">
+
+        <div class="dom-content">
+            <div class="content-color">
+                <span class="close">&times;</span>
+                <div class="employee-form">
+                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                        <div style="margin: 4px;">
+                            <div><label>Name</label><label class="validation-error hide"
+                                    id="fullNameValidationError"></label></div>
+                            <input type="text" name="fullName" class="len" placeholder="Enter your fullname.."
+                                id="fullName">
+                        </div>
+                </div>
+
+                <div style="margin: 4px;">
+                    <div><label>Address</label></div>
+                    <textarea id="addr" class="len" placeholder="Fill your addr..." name="addr" rows="3"
+                        cols="21"></textarea>
+                </div>
+                <div style="margin: 4px;">
+                    <div>
+                        <div><label>Phone</label></div>
+                        <input type="number" class="len" placeholder="Contact number.." name="number" id="number">
+                    </div>
+                </div>
+                <div style="margin: 4px;">
+                    <div>
+                        <div><label>Email</label></div>
+                        <input type="text" class="len" placeholder="Enter your mail.." name="email" id="email">
+                    </div>
+                </div>
+                <div style="margin: 4px;">
+                    <div class="cent">
+                        <div><label>Status</label></div>
+                        <input type="radio" name="Status" value="Active">Active
+                        <input type="radio" name="Status" value="InActive">In Active
+                    </div>
+                </div>
+                <div style="margin: 4px;" class="form-action-buttons">
+                    <input type="submit" class="button button4" value="Submit">
+                </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
